@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+h2 {
+  color: #333;
+}
+
+#controls button {
+  padding: 10px 15px;
+  background: #007bff;
+  border: none;
+  color: white;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#controls button:hover {
+  background: #0056b3;
+}
+
+#discountSection {
+  margin: 20px 0;
+}
+
+.item-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item-row input {
+  padding: 8px;
+}
+
+.remove-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#summary p {
+  font-size: 1.1em;
+  margin: 5px 0;
+}
+
+#sessionList {
+  margin-top: 20px;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+}
